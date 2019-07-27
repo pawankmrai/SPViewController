@@ -25,7 +25,7 @@
 		872DDBA022EB7FEF00A283D6 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
 		872DDBA122EB7FEF00A283D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		872DDBB822EB801000A283D6 /* SPItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPItem.swift; sourceTree = "<group>"; };
-		872DDBBA22EB801100A283D6 /* SPItem+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SPItem+App.swift"; sourceTree = "<group>"; };
+		872DDBBA22EB801100A283D6 /* SPItem+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SPItem+App.swift"; path = "../SPItem+App.swift"; sourceTree = "<group>"; };
 		872DDBBB22EB801100A283D6 /* UITableView+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+App.swift"; sourceTree = "<group>"; };
 		872DDBBD22EB801100A283D6 /* SPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPViewController.xib; sourceTree = "<group>"; };
 		872DDBBE22EB801100A283D6 /* SPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +68,6 @@
 			children = (
 				872DDBA022EB7FEF00A283D6 /* SPViewController.h */,
 				872DDBA122EB7FEF00A283D6 /* Info.plist */,
-				872DDBBA22EB801100A283D6 /* SPItem+App.swift */,
 				872DDBB922EB801100A283D6 /* Categories */,
 				872DDBBC22EB801100A283D6 /* Controllers */,
 				872DDBB722EB801000A283D6 /* Models */,
@@ -90,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				872DDBBB22EB801100A283D6 /* UITableView+App.swift */,
+				872DDBBA22EB801100A283D6 /* SPItem+App.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -106,8 +106,8 @@
 		872DDBBF22EB801100A283D6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				872DDBC022EB801100A283D6 /* Detail */,
 				872DDBC322EB801100A283D6 /* Text */,
+				872DDBC022EB801100A283D6 /* Detail */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 		872DDBC322EB801100A283D6 /* Text */ = {
 			isa = PBXGroup;
 			children = (
-				872DDBC422EB801100A283D6 /* SPTextTableViewCell.xib */,
 				872DDBC522EB801100A283D6 /* SPTextTableViewCell.swift */,
+				872DDBC422EB801100A283D6 /* SPTextTableViewCell.xib */,
 			);
 			path = Text;
 			sourceTree = "<group>";
