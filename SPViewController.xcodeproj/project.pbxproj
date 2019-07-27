@@ -68,6 +68,7 @@
 			children = (
 				872DDBA022EB7FEF00A283D6 /* SPViewController.h */,
 				872DDBA122EB7FEF00A283D6 /* Info.plist */,
+				872DDBBA22EB801100A283D6 /* SPItem+App.swift */,
 				872DDBB922EB801100A283D6 /* Categories */,
 				872DDBBC22EB801100A283D6 /* Controllers */,
 				872DDBB722EB801000A283D6 /* Models */,
@@ -88,7 +89,6 @@
 		872DDBB922EB801100A283D6 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				872DDBBA22EB801100A283D6 /* SPItem+App.swift */,
 				872DDBBB22EB801100A283D6 /* UITableView+App.swift */,
 			);
 			path = Categories;
